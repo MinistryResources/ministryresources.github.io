@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Summary of the Discipleship Structure from Purpose Driven Church</title>
+<style>
+  :root {
+    --text: #252a27;
+    --muted: #68716b;
+    --line: #e5e8e5;
+    --soft: #f5f7f5;
+    --accent: #426b55;
+    --width: 900px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    color: var(--text);
+    background: #fff;
+    font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    width: min(var(--width), calc(100% - 48px));
+    margin-inline: auto;
+  }
+
+  header {
+    padding: 76px 0 52px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  h1, h2, h3 { color: var(--text); line-height: 1.2; }
+
+  h1 {
+    max-width: 760px;
+    margin: 0;
+    font-size: clamp(2.5rem, 6vw, 4.2rem);
+    font-weight: 650;
+    letter-spacing: -.055em;
+  }
+
+  main { padding: 54px 0 80px; }
+
+  section { margin: 0 0 64px; }
+
+  h2 {
+    margin: 0 0 22px;
+    font-size: 1.8rem;
+    font-weight: 620;
+    letter-spacing: -.04em;
+  }
+
+  h3 {
+    margin: 30px 0 12px;
+    font-size: 1.2rem;
+    font-weight: 650;
+    letter-spacing: -.02em;
+  }
+
+  p { margin: 0 0 18px; }
+
+  .toc {
+    padding: 26px 30px;
+    background: var(--soft);
+    border-radius: 10px;
+  }
+
+  .toc h2 {
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+  }
+
+  .toc ol {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .toc li { margin: 5px 0; }
+  .toc a { color: inherit; text-decoration: none; }
+  .toc a:hover { color: var(--accent); text-decoration: underline; }
+
+  .summary-table {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+
+  table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: .9rem;
+  }
+
+  th, td {
+    padding: 14px 15px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--line);
+  }
+
+  th {
+    background: var(--soft);
+    color: var(--muted);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  tbody tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 700; }
+
+  .step {
+    padding-top: 34px;
+    border-top: 1px solid var(--line);
+  }
+
+  .step-number {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--accent);
+    font-size: .75rem;
+    font-weight: 750;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    margin: -12px 0 24px;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  .program {
+    margin-top: 28px;
+    padding: 22px 26px;
+    background: var(--soft);
+    border-radius: 10px;
+  }
+
+  .program h3 {
+    margin: 0 0 12px;
+    font-size: 1.15rem;
+  }
+
+  .program p:last-child { margin-bottom: 0; }
+
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 5px 0; }
+
+  .host-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 18px 0 24px;
+  }
+
+  .host-list div {
+    padding: 14px;
+    background: var(--soft);
+    border-radius: 8px;
+  }
+
+  .host-list strong {
+    display: block;
+    color: var(--accent);
+    font-size: 1.1rem;
+  }
+
+  footer {
+    padding: 22px 0 36px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: .82rem;
+  }
+
+  @media (max-width: 640px) {
+    .page { width: calc(100% - 36px); }
+    header { padding: 54px 0 38px; }
+    main { padding-top: 36px; }
+    section { margin-bottom: 48px; }
+    .toc { padding: 22px; }
+    .host-list { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media print {
+    .page { width: 100%; }
+    header { padding-top: 24px; }
+    main { padding-top: 30px; }
+    section { break-inside: avoid; }
+    a { text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="page">
+    <h1>A Summary of the Discipleship Structure from <i>Purpose Driven Church</i></h1>
+  </div>
+</header>
+
+<main class="page">
+  <section class="toc" aria-labelledby="contents">
+    <h2 id="contents">Table of Contents</h2>
+    <ol>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#summary">Table: Summary of Saddleback’s Discipleship Structure</a></li>
+      <li><a href="#magnification">Step 1: Magnification</a>
+        <ol>
+          <li><a href="#community-to-crowd">From Community to Crowd</a></li>
+          <li><a href="#seeker-services">Key Program: Seeker Services</a></li>
+        </ol>
+      </li>
+      <li><a href="#membership">Step 2: Membership</a>
+        <ol>
+          <li><a href="#crowd-to-congregation">From Crowd to Congregation</a></li>
+          <li><a href="#small-groups">Key Program: Small Groups</a></li>
+        </ol>
+      </li>
+      <li><a href="#maturity">Step 3: Maturity</a>
+        <ol>
+          <li><a href="#congregation-to-committed">From Congregation to Committed</a></li>
+          <li><a href="#life-development">Key Program: Life Development Institute</a></li>
+        </ol>
+      </li>
+      <li><a href="#ministry">Step 4: Ministry</a>
+        <ol>
+          <li><a href="#committed-to-core">From Committed to Core</a></li>
+          <li><a href="#salt">Key Program: SALT Rallies</a></li>
+        </ol>
+      </li>
+      <li><a href="#mission">Step 5: Mission</a>
+        <ol>
+          <li><a href="#core-to-community">Sending the Core back into the Community</a></li>
+          <li><a href="#bridge-events">Key Program: Bridge Events</a></li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Saddleback Church in Orange County, California, is one of America’s largest churches with tens of thousands of attendees. As the church grew, its founder (Rick Warren) published a book explaining his approach to ministry. It’s called <em>The Purpose Driven Church</em>.</p>
+    <p>Every few years I re-read <em>The Purpose Driven Church</em>. I don't agree with everything in it, but Rick Warren's approach to discipleship is both refreshing and challenging. This article summarises Saddleback's actual ministry structures, in the hope that examining how another church organises its ministries might spark fresh ideas and challenge long-standing routines.</p>
+    <p>Saddleback’s ministry structures revolve around the five purposes of the church: magnifying God, membership among God’s people, developing spiritual maturity, ministry to others, and fulfilling one’s mission in the world. Rick translates these five purposes into a sequential process made up of five steps.</p>
+    <p>Besides the initial step of magnifying God in the gathered worship of his people, each step in the discipleship process is supported by a class. The classes are four hours long and held on the second Sunday afternoon of each month, from 4 to 8:30 pm, including a thirty-minute meal provided to those who take the classes. You take one class at a time; completing all the classes can take as little as four months depending on how much of a gap you leave between each class.</p>
+    <p>Each class invites people to sign a covenant which spells out a set of commitments. People are categorised by which covenants they have made. The goal is to get people through all the steps, to be a well-rounded disciple of Jesus, ready and willing to share the love and message of Jesus with the world.</p>
+    <p>To evaluate how their discipleship process is working, they’ve developed a tracking tool they call the “Saddleback Snapshot.” Their pastoral staff reviews it each month. The snapshot identifies who is at each stage of the process and shows how many people are currently in each commitment category. Bottlenecks in the system become easy to spot.</p>
+  </section>
+
+  <section id="summary">
+    <h2>Table: Summary of Saddleback’s Discipleship Structure</h2>
+    <div class="summary-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th><th>Description</th><th>Key Program</th><th>Description of Program</th><th>Next Step</th><th>Next Class</th><th>Covenant Commitments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Community</td>
+            <td>Occasional service attenders + people within driving distance</td>
+            <td>Bridge Events</td>
+            <td>Events to raise community awareness of the church</td>
+            <td>Magnification</td><td>N/A</td><td>N/A</td>
+          </tr>
+          <tr>
+            <td>Crowd</td>
+            <td>Regularly attending non-members</td>
+            <td>Seeker Services</td>
+            <td>Outsider-friendly services</td>
+            <td>Membership</td><td>Class 101: Discovering Church Membership</td><td>Give financially, support the unity of the church</td>
+          </tr>
+          <tr>
+            <td>Congregation</td>
+            <td>People who have signed the membership covenant</td>
+            <td>Small Groups</td>
+            <td>Affinity-based groups</td>
+            <td>Maturity</td><td>Class 201: Discovering Spiritual Maturity</td><td>Daily quiet time, tithing their income, being active in a small group</td>
+          </tr>
+          <tr>
+            <td>Committed</td>
+            <td>People who have signed the maturity covenant</td>
+            <td>Life Development Institute</td>
+            <td>Workshops, seminars and other learning resources</td>
+            <td>Ministry</td><td>Class 301: Discovering My Ministry</td><td>Joining or starting a ministry to others</td>
+          </tr>
+          <tr>
+            <td>Core</td>
+            <td>People who have signed the ministry covenant</td>
+            <td>SALT Rallies (Saddleback Advanced Leader Training)</td>
+            <td>Monthly gatherings to celebrate and train in ministry</td>
+            <td>Mission</td><td>Class 401: Discovering My Life Mission</td><td>Sharing the gospel in their community and beyond</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="magnification" class="step">
+    <span class="step-number">Step 1</span>
+    <h2>Magnification</h2>
+    <h3 id="community-to-crowd">From Community to Crowd</h3>
+    <p>Saddleback church seeks to invite everyone within driving distance of their church to come along, discover faith and worship the true God. The invitation is that of Psalm 34:3 — Magnify the LORD with me and let us exalt his name together!</p>
+    <p>First-time, second-time and third-time visitors receive a letter from pastor Rick, telling them how glad Saddleback is to have them. If you visit a Saddleback service at least four times in a year (and indicate it with a registration card or offering envelope), your name gets put in the "Community" database. These are considered the hottest evangelistic prospects. When Rick was writing <em>Purpose Driven Church</em>, Saddleback had over 31,000 names of occasional attenders.</p>
+    <p>Those who attend regularly are moved from being classified as part of the community to being part of the crowd. The book doesn’t specify what “regular” attendance means, but it says that at the time of writing they had about 10,000 people in their "crowd".</p>
+
+    <h3 id="seeker-services">Key Program: Seeker Services</h3>
+    <p>The key program that helps the crowd magnify (or worship) God together is the weekend “seeker service”. There are four identical services available: Saturdays 6pm and Sunday mornings at 8, 9:30, and 11:15. These are designed as services to which members can bring any unsaved friends to whom they are witnessing.</p>
+    <p>The messages/sermons are around 45 minutes and are topical. They aim to help unbelievers see the relevance of God’s word for their life. Series from the ‘90s include have titles such as: “How God Meets Your Deepest Needs”, “Essentials for 21st Century Living”, “God’s Amazing Promises”, and “Strategies for Stressful Times”. Rick believes in beginning by addressing people’s felt needs before helping them see how the gospel of Jesus redefines and meets their deepest needs.</p>
+    <p>The music is contemporary and tends to be upbeat. Rick believes gathered worship is a powerful witness to unbelievers, and so singing remains a vital part of their seeker services.</p>
+    <p>They try to make services as welcoming as possible. They have welcomers to help people find parking, find their way through the foyer, and find their way to the seats inside. They give each attendee a detailed bulletin which explains their Welcome Card, the offering, the time of commitment, and other parts of the service. The message outline comes with Bible verses written out on it.</p>
+    <p>The Welcome Card (attached to the bulletin) allows attenders to give feedback. They use the card to register attendance, record spiritual decisions, gather prayer requests, take surveys, sign up for events and programs, recruit leadership, evaluate services, update membership information, gather sermon ideas, start new ministries, and more.</p>
+    <p>As well as receiving the Welcome Card, first-time visitors receive a "Thanks for being our guest" letter via mail after the service. Enclosed in the letter is a postage-paid "My First Impression" card, which invites people to give frank, anonymous impressions of church. It says, "Our church wants to serve you better, so would you please give us your opinion?" There are only three questions on the card: "What did you notice first?", "What did you like best?" and "What did you like least?"</p>
+    <p>They are constantly evaluating their services with the help of feedback from regular members and first-time visitors. They also ask staff members to submit a weekly Worship Evaluation Form, which invites feedback on everything from parking to bulletins to refreshment tables to the music and message.</p>
+    <p>Their services usually last about seventy minutes and they regularly time elements to evaluate what took too long and what needs more time.</p>
+    <p>To minimise time spent announcing things during the service, they train attendees to read the bulletin. They say something like, "This week, there are special events for men, young adults and team leaders. Be sure to read your bulletin to find out what's happening for you." They only do detailed announcements for events that apply to everyone.</p>
+    <p>The Magnification Team is tasked with planning and overseeing the seeker services as well as special worship events, and to provide music and worship resources to the rest of the church.</p>
+  </section>
+
+  <section id="membership" class="step">
+    <span class="step-number">Step 2</span>
+    <h2>Membership</h2>
+    <h3 id="crowd-to-congregation">From Crowd to Congregation</h3>
+    <p>Once someone is part of the “crowd”, they are encouraged to consider taking Class 101: "Discovering Saddleback Membership". The class covers the what and why of church, the benefits, requirements and responsibilities of membership, and Saddleback’s vision and strategy. They offer three versions of the membership class: a children's version, a youth version, and the adult class.</p>
+    <p>In their membership class they explain that trusting Christ is the first requirement for membership, and they often have people who commit their lives to Christ in the membership class. Another requirement is baptism—they hold monthly baptisms which are always big celebrations.</p>
+    <p>Those who sign the membership covenant commit to give financially, support the unity of the church, and seek to live a godly lifestyle. Only those who have received Christ, been baptized, taken the membership class, and signed the membership covenant are considered a part of the congregation. Once people take this step, the church has a responsibility to care for them and help them experience genuine fellowship and belonging.</p>
+    <p>Saddleback avoids having non-resident or inactive members on their roll. As a result, they remove hundreds of names from their membership each year. At time of writing, their congregation consisted of about five thousand active members.</p>
+    <p>The Membership Team runs the monthly class for prospective members (Class 101). They oversee all support groups, weddings, funerals, pastoral care, hospital visitation, and benevolence within the congregation, and they operate the counseling center. This team is also responsible for all major fellowship events within the church family (supper clubs, sports, game nights, picnics, and weekend retreats).</p>
+
+    <h3 id="small-groups">Key Program: Small Groups</h3>
+    <p>The main program for the congregation is the small group network. Small groups are the key to helping people experience personal care and feel a sense of belonging as members of the church.</p>
+    <p>While small groups are considered the main program for the congregation, they also serve the people in other categories of commitment. They allow small groups to specialise. “Seeker groups” are formed for evangelism. They provide a nonthreatening environment for nonbelievers to ask questions and investigate the claims of Christ. “Support groups” are formed for congregational care and fellowship among people in specific life situations, such as new parents, college students, empty nesters, those dealing with loss, or those recovering from addiction. “Growth groups” are dedicated to discipleship training and in-depth Bible study. They offer about fifty different curriculum choices, and some of these groups do a more in-depth study of the previous week's sermon subject. “Service groups” are formed around a specific ministry such as their orphanage in Mexico, their prison ministry, or the divorce recovery ministry. Groups such as these naturally find fellowship together through a common task, project, or ministry.</p>
+    <p>Part of what allowed Saddleback to scale up its small groups ministry to thousands of people was its approach in leader recruitment. While they identified and trained group leaders who were capable of pastoral care and more in-depth Bible study, they had low barriers for entry for people who wanted to give leading a go. Their menu of curriculums meant that leaders could review and choose what they wanted their group to study, and the video component of the curriculums allowed people to simply host a group rather than lead it. Teenagers and new Christians could host groups—they made it very simple. The description of a host is captured in their acronym, H.O.S.T. —</p>
+    <div class="host-list">
+      <div><strong>H</strong>Have a heart for people.</div>
+      <div><strong>O</strong>Open up a place to meet.</div>
+      <div><strong>S</strong>Serve something to drink.</div>
+      <div><strong>T</strong>Turn on the video.</div>
+    </div>
+    <p>Saddleback allows its members to choose the type of small group that best fits their needs or their spiritual maturity. They do not expect each small group to fulfil every purpose of the church, but they do require that each one must be organised around at least one purpose of the church.</p>
+    <p>Group leaders get to determine how big their group is and who is in it. A group can be three people or thirty or more. Leaders determine how long the group lasts. While there is an annual season where group members are encouraged to consider leading or change groups, groups can stay together for many years.</p>
+  </section>
+
+  <section id="maturity" class="step">
+    <span class="step-number">Step 3</span>
+    <h2>Maturity</h2>
+    <h3 id="congregation-to-committed">From Congregation to Committed</h3>
+    <p>Those who have committed to membership are then encouraged to participate in the next class—Class 201: "Discovering Spiritual Maturity". The class covers the what, why and how of spiritual growth. At the end of the class, participants are invited to sign a maturity covenant card. The maturity covenant card indicates a commitment to three spiritual habits: (1) having a daily quiet time, (2) tithing, and (3) being active in a small group. At the time when <em>Purpose Driven Church</em> was being written, about 3,500 people at Saddleback had signed maturity covenant cards and were considered a part of their "committed" group. Every year they renew their commitments and receive new covenant cards.</p>
+    <p>The Maturity Team’s job is to lead members to deeper spiritual maturity. They oversee the monthly Class 201 and the Life Development Institute, the midweek worship service, all Bible studies, growth groups in homes, and special church-wide spiritual growth campaigns. They also produce family devotional guides, Bible study curriculums, and other resources to help believers grow.</p>
+
+    <h3 id="life-development">Key program: Life Development Institute</h3>
+    <p>The main program for the committed is the Life Development Institute. This is an adult Christian education and spiritual formation program. It offers a variety of opportunities for spiritual growth: seminars, workshops, mentoring opportunities, and independent study programs. A person may earn credits for the classes they take and eventually receive a diploma.</p>
+    <p>On Wednesday nights they hold a worship service for believers which is a part of the Life Development Institute. It includes communion and more exegetically focused sermons. These are in addition to the Sunday seeker services which members are expected to attend and bring their friends to.</p>
+  </section>
+
+  <section id="ministry" class="step">
+    <span class="step-number">Step 4</span>
+    <h2>Ministry</h2>
+    <h3 id="committed-to-core">From Committed to Core</h3>
+    <p>People who have completed the maturity covenant are then encouraged to take Class 301: “Discovering My Ministry”. The Ministry class involves filling out a SHAPE profile. SHAPE stands for the five elements that determine what a person’s ministry should be (spiritual gifts, heart, abilities, personality, and experiences). The class also involves having a personal ministry interview and signing a ministry covenant. Those who sign the Ministry Covenant are then considered part of the “core”. When <em>Purpose Driven Church</em> was written, Saddleback had about 1,500 people in their core group.</p>
+    <p>A key part of Saddleback’s approach is that lay people are given responsibility and freedom to begin ministries and to shape them. The staff don’t create new ministries or ministry positions. They may suggest an idea, but they let the idea percolate until God provides the right person to lead it. They simply provide brief and clear role descriptions for ministry positions that come into being, with suggested standards and expected results.</p>
+    <p>Any “core” member can begin a ministry as long as they agree to follow three guidelines:</p>
+    <ol>
+      <li>Don’t expect the staff to run your ministry.</li>
+      <li>The ministry must be compatible with the church’s values and ministry philosophy.</li>
+      <li>No fund-raising is allowed; ministry leaders must submit their financial needs for consideration in the total church budget.</li>
+    </ol>
+    <p>If someone wants to start a ministry, they simply need to announce a formation meeting in the bulletin and start it. Once people have been placed in ministry, they need to be equipped to serve well. Saddleback emphasises practical, on-the-job training rather than pre-service training.</p>
+    <p>The Ministry team encourages people to leave or change ministries without any shame or embarrassment. Although they usually ask for a one-year commitment to a ministry, they never enforce it. If people realize they are mismatched, they don’t make them feel guilty for resigning. By calling it an “experiment,” they can encourage them to try something else. Every year, during their Lay Ministry Month, everyone is encouraged to try a new ministry if they are unsatisfied where they are currently serving.</p>
+    <p>The Ministry Team oversees the monthly ministry class and SALT rallies, ministry placement and training. They treat moving members into ministry as an ongoing process, not a special emphasis. Whenever anyone expresses a desire to minister they immediately start them through their placement process. They also oversee all service groups (i.e. small groups geared around a particular ministry).</p>
+    <p>They provide lay ministries with material support by giving leaders access to copy machines, paper, and space to meet. They also also provide promotional support — at least twice a year, they have a ministry fair where every ministry advertises its focus, programs, and events. They print a brochure for every ministry and publish articles on different ministries in their newsletter.</p>
+
+    <h3 id="salt">Key Program: SALT Rallies</h3>
+    <p>The key program for the “core” group is a monthly training rally called SALT, which stands for Saddleback Advanced Leadership Training. It is a two-hour rally held on the first Sunday evening of each month. Everyone who serves in a ministry is invited. A typical SALT rally includes: reports and testimonies from all the lay ministries, “insider” church news, ministry and leadership training, prayer, the commissioning of new lay ministers, and a vision-casting message by Rick. These monthly messages are called “Leadership Lifters” and are taped so anyone who misses SALT can hear them later. At SALT, they also present a monthly “Giant-Killer” award to the lay ministry that has tackled the biggest problem in the previous month.</p>
+  </section>
+
+  <section id="mission" class="step">
+    <span class="step-number">Step 5</span>
+    <h2>Mission</h2>
+    <h3 id="core-to-community">Sending the Core back into the Community</h3>
+    <p>While everyone at Saddleback is encouraged to share their faith, those who are part of the core are encouraged to take Class 401: Discovering My Life Mission. The class aims to grow people in their conviction and competency when it comes to evangelism. It trains people to share the gospel as well as their own testimony, and it outlines mission opportunities locally and globally. Each participant is challenged to share their faith in their local context and take up one opportunity to go on a mission trip.</p>
+    <p>The Missions Team is assigned the purpose of evangelism. Their target is the community. Their job is to plan, promote, and oversee all of the church’s bridge events, seeker groups, evangelism training (including Class 401), evangelistic activities and programs, and mission projects. They are to organize whatever it takes to reach their community and their world for Christ.</p>
+
+    <h3 id="bridge-events">Key Program: Bridge Events</h3>
+    <p>At Saddleback, the primary program they use to impact the community is an annual series of community-wide “bridge events”, so called because they are designed to build a bridge between their church and their community. These events include: a Harvest party as a safe alternative for children at Halloween, community-wide Christmas Eve services, community-wide Easter services, and Western Day near the Fourth of July, as well as other seasonal emphases, concerts, and productions. Some of their bridge events are overtly evangelistic while others they consider “pre-evangelism”—they simply make the unchurched in their community aware of their church.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="page">A Summary of the Discipleship Structure from <em>Purpose Driven Church</em></div>
+</footer>
+</body>
+</html>
